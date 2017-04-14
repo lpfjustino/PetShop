@@ -1,0 +1,15 @@
+#input_breed {
+	display: inline-block;
+}
+
+#combo_box_breed {
+	display:inline-block;
+}
+
+#input_other_breed {
+	display:block;
+}
+
+.tab_level_2 {
+	padding-left: 20px;
+}
