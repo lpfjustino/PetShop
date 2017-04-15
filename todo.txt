@@ -13,3 +13,5 @@ luis - Detalhes animal
 luis - Ganhos
 
 sorim - (Gerenciar agendamento) Associar serviços a slots de horário, liberar slots reservados
+
+lucas - Venda de Serviços

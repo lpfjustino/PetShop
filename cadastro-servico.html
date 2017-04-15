@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Bootstrap 3, from LayoutIt!</title>
+
+		<meta name="description" content="Source code generated using layoutit.com">
+		<meta name="author" content="LayoutIt!">
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
+	</head>
+	<body>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<h3>
+						Novo Serviço
+					</h3>
+					<p>
+						Insira as informações do novo serviço a ser cadastrado.
+					</p>
+					<form role="form">
+
+						<!-- ID -->
+						<div class="form-group">
+							<label for="input_name">
+								Código do serviço
+							</label>
+							<input type="text" class="form-control" id="input_id" disabled />
+						</div>
+						
+						<!-- Nome -->
+						<div class="form-group">
+							<label for="input_name">
+								Serviço
+							</label>
+							<input type="text" class="form-control" id="input_name" />
+						</div>
+
+						<!-- Descrição -->
+						<div class="form-group">
+							<label for="input_description">
+								Descrição do serviço
+							</label>
+							<textarea class="form-control" rows="5" id="input_description"></textarea>
+						</div>
+
+						<!-- Idade -->
+						<div class="form-group">
+							<label for="input_price">
+								Preço
+							</label>
+							<input type="text" class="form-control" id="input_price" />
+						</div>
+						
+						<!-- Foto -->
+						<div class="form-group">
+							<label for="input_photo">
+								Foto
+							</label>
+							<input type="file" id="input_photo" />
+							<p class="help-block">
+								Insira aqui a foto do serviço.
+							</p>
+						</div>
+
+						<button type="submit" class="btn btn-default">
+							Submit
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
