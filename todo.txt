@@ -1,17 +1,3 @@
-//TODO:
-
-boss - Cadastro adm
-sorim - Cadastro clientes
-croc - Cadastro produtos
-luis - Cadastro serviços
-
-boss - Agendamento de horários
-
-croc - Tela de produtos
-croc - Tela de carrinho
-luis - Detalhes animal
-luis - Ganhos
-
-sorim - (Gerenciar agendamento) Associar serviços a slots de horário, liberar slots reservados
-
-lucas - Venda de Serviços
+Modificar o texto do index.html
+Verificar os TITLEs
+Linkar as páginas que vocês fizeram
