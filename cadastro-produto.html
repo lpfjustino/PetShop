@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Bootstrap 3, from LayoutIt!</title>
+
+		<meta name="description" content="Source code generated using layoutit.com">
+		<meta name="author" content="LayoutIt!">
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/cadastro-produto.css" rel="stylesheet">
+
+	    <script src="js/jquery.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/scripts.js"></script>
+
+	</head>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<p>
+				Insira aqui as informações do produto.
+			</p>
+			<form role="form">
+				<div class="form-group">
+    				<label for="id_prod" class="col control-label">ID</label>
+    			<div class="col">
+      				<input class="form-control" id="disabledInput" type="text" placeholder="1" disabled>
+    			</div>
+  				</div>
+
+  				<div class="clearfix"></div>
+
+				<!-- Nome -->
+				<div class="form-group">
+					<label for="input_name">
+						Nome do produto
+					</label>	
+					<input type="text" class="form-control" id="input_name" />
+				</div>
+
+				<!-- Descrição -->
+				  <form>
+				    <div class="form-group">
+				    	<label 
+				    		for="comment">Descrição:
+				    	</label>
+				      <textarea class="form-control" rows="5" id="input_descricao_prod"></textarea>
+				    </div>
+				  </form>
+				
+				</div> <!-- form-group -->
+				<div class = "container">
+					<div class="form-group">
+						<label for="input_quantidade_prod_estoque">
+							Quantidade em estoque
+						</label>
+						<input type="number" class="form-control" id="input_quantidade_prod_estoque" />
+					</div>
+				</div>
+				<!--
+				<div class="form-group">
+					<label for="input_quan">
+						Quantidade vendida
+					</label>
+					<input type="number" class="form-control" id="input_quantidade_prod_vendida" />
+				</div>
+				-->
+				<!-- Foto -->
+				<div class = "container">
+					<div class="form-group">
+						<label for="input_photo_prod">
+							Foto
+						</label>
+						<input type="file" id="input_photo_prod" />
+						<p class="help-block">
+							Insira aqui a foto do produto.
+						</p>
+					</div>
+
+				<button type="submit" class="btn btn-default">
+					Inserir Produto
+				</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
