@@ -1,3 +1,4 @@
 Modificar o texto do index.html
 Verificar os TITLEs
 Linkar as páginas que vocês fizeram
+Fazer e linkar a tabela de remover administradores (tabela com administradores listados com botão de remoção)
